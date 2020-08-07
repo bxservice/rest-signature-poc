@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Running it with iDempiere
+
+You need to have a running instance with the [Experimental iDempiere REST API](https://github.com/hengsin/idempiere-rest) installed.
+
+This repository is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+This is just a proof of concept to show how you can communicate with iDempiere using the REST API, use it under your own risk.
+
+If your iDempiere instance is not running on [http://localhost:8080](http://localhost:8080). Change the package.json file to set the right value to the proxy attribute.
 
 ## Available Scripts
 
