@@ -21,7 +21,7 @@
 **********************************************************************/
 export const logo = "assets/images/bxlogo.png";
 
-export const standardFilter = "AD_Client_ID = ? AND isActive = 'Y'";
+export const standardFilter = "AD_Client_ID eq ? AND isActive eq true ";
 
 export function getURL(baseUrl, params) {
   let url = baseUrl;

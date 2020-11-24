@@ -28,7 +28,7 @@ export const fetchOrders = (loginInfo) => (dispatch) => {
     return;
 
   let params = {
-    filter: standardFilter.replace('?', loginInfo.clientId) + "AND isSOTrx='Y'",
+    filter: standardFilter.replace('?', loginInfo.clientId) + " AND isSOTrx eq true",
     order: "DateOrdered desc",
   }
 
